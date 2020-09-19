@@ -6,7 +6,7 @@ Bootleggers ROM | Queue (Android 10) sources
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/BootleggersROM/manifest.git -b queso
+	repo init -u https://github.com/Bootleggers-BrokenLab/manifest.git -b queso
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
