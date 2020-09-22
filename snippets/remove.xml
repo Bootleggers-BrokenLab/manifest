@@ -15,6 +15,7 @@
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/opengl-transport"/>
   <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/trusty" />
   <remove-project name="device/generic/x86" />
@@ -81,6 +82,7 @@
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/sdm845/display"/>
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
 </manifest>
