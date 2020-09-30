@@ -66,6 +66,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
@@ -83,6 +84,7 @@
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/sdm845/display"/>
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
