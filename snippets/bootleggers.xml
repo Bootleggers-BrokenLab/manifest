@@ -54,6 +54,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="brokenlab" />
 
   <!-- Hardware -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="brokenlab" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="brokenlab">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -82,21 +83,23 @@
   </project>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="brokenlab" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="brokenlab" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="brokenlab" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="brokenlab" revision="roblox-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="brokenlab" revision="roblox-caf-msm8998" />
   <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" remote="brokenlab" revision="roblox-caf-sdm845" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" remote="brokenlab" revision="roblox-caf-sm8150" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="brokenlab" revision="roblox-caf"/>
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-bootleg" name="prebuilts_tools-bootleg" remote="bootleggers" clone-depth="1" />
 
   <!-- Packages repos -->
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers" />
-  <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
+  <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="brokenlab" />
   <project path="packages/apps/Phonograph" name="packages_apps_Phonograph" remote="bootleggers" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
   <project path="packages/apps/ShishufiedHeaders" name="packages_apps_ShishufiedHeaders" remote="bootleggers" />
-  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers" />
+  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="brokenlab" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="brokenlab" />
