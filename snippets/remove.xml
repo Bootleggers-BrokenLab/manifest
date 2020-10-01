@@ -62,6 +62,8 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -86,6 +88,10 @@
   <remove-project name="platform/hardware/qcom/sdm845/display"/>
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
 </manifest>
