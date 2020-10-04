@@ -23,6 +23,7 @@
   <!-- General -->
   <project path="manifest" name="manifest" remote="brokenlab" />
   <project path="bionic" name="bionic" remote="brokenlab" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="brokenlab" />
 
   <!-- Build -->
   <project path="build/make" name="build" remote="brokenlab">
@@ -43,8 +44,8 @@
   <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="brokenlab" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="brokenlab" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="brokenlab" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="brokenlab" revision="roblox-legacy-um"/>
   <!--
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy-um"/>
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy"/> -->
 
   <!-- External -->
