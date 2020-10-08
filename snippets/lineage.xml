@@ -68,7 +68,6 @@
   <!-- System -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" revision="lineage-17.1" />
   <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-17.1" />
-  <project path="system/vold" name="android_system_vold" remote="lineage" />
 
   <!-- Packages-->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" revision="lineage-17.1" />

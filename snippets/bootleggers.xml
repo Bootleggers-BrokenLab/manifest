@@ -52,6 +52,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="brokenlab" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="brokenlab" />
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="brokenlab" />
 
   <!-- Framework -->
@@ -116,6 +117,7 @@
   <!-- System -->
   <project path="system/core" name="system_core" remote="brokenlab" />
   <project path="system/sepolicy" name="system_sepolicy" remote="brokenlab" />
+  <project path="system/vold" name="system_vold" remote="brokenlab" />
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="brokenlab" />
