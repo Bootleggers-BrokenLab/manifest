@@ -39,6 +39,7 @@
   <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-apq8084" remote="lineage" />
   <project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-apq8084" remote="lineage" />
   <project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-apq8084" remote="lineage" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-18.1-caf" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" remote="lineage" />
