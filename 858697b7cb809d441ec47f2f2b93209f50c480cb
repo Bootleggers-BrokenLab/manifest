@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21740235_e85218e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2021-01-28T19:17:57Z",
+      "side": 1,
+      "message": "works fine for me, had to do the same thing while trying to sync.",
+      "revId": "858697b7cb809d441ec47f2f2b93209f50c480cb",
+      "serverId": "b201f258-81ea-42cf-b4a3-fbb1a19f7482"
+    }
+  ]
+}
