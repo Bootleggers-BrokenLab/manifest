@@ -80,6 +80,7 @@
   <!--<project path="packages/apps/ShishufiedHeaders" name="packages_apps_ShishufiedHeaders" remote="bootleggers" /> -->
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="brokenlab" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="brokenlab" />
+  <project path="packages/modules/VolumePanelPlugins" name="packages_modules_VolumePanelPlugins" remote="brokenlab" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="brokenlab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="brokenlab" />
 
