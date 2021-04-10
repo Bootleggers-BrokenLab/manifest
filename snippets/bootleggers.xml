@@ -48,7 +48,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="brokenlab" />
 
   <!-- External -->
-  <project path="external/faceunlock" name="external/faceunlock" remote="brokenlab" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="brokenlab" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="brokenlab" />
