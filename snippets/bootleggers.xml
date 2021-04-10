@@ -86,6 +86,8 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="brokenlab" />
+  <project path="system/netd" name="system_netd" remote="brokenlab" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="brokenlab" />
   <project path="system/vold" name="system_vold" remote="brokenlab" />
 
   <!-- Vendor -->
