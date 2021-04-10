@@ -48,6 +48,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="brokenlab" />
 
   <!-- External -->
+  <project path="external/faceunlock" name="external/faceunlock" remote="brokenlab" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="brokenlab" />
@@ -69,6 +70,7 @@
     <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
   </project>
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="brokenlab" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="brokenlab" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="brokenlab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="brokenlab" />
   <project path="packages/apps/OmniJaws" name="packages_apps_OmniJaws" remote="brokenlab" />
