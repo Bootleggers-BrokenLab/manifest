@@ -58,6 +58,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="brokenlab" />
   <project path="frameworks/base" name="frameworks_base" remote="brokenlab" />
   <project path="frameworks/native" name="frameworks_native" remote="brokenlab" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="brokenlab" />
 
   <!-- Hardware -->
 
@@ -87,6 +88,7 @@
   <!-- System -->
   <project path="system/core" name="system_core" remote="brokenlab" />
   <project path="system/netd" name="system_netd" remote="brokenlab" />
+  <project path="system/security" name="system_security" remote="brokenlab" />
   <project path="system/sepolicy" name="system_sepolicy" remote="brokenlab" />
   <project path="system/vold" name="system_vold" remote="brokenlab" />
 
