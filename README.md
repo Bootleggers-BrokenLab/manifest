@@ -13,7 +13,7 @@ By initializing the repo with this source, you're completely acknowledge that yo
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/BootleggersROM/manifest.git -b queso
+	repo init -u https://github.com/Bootleggers-BrokenLab/manifest.git -b rimbon
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
