@@ -63,6 +63,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/hardware/libhardware" />
@@ -80,7 +81,9 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/sepolicy" />
 
 </manifest>
