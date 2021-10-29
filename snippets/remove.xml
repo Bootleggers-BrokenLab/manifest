@@ -12,4 +12,5 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
 </manifest>

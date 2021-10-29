@@ -35,6 +35,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
 
   <!-- External -->
+  <project path="external/json-c" name="external_json-c" remote="yaap"  revision="eleven" />
   <project path="external/selinux" name="external_selinux" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
 
@@ -73,6 +74,7 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="yaap" revision="eleven" />
