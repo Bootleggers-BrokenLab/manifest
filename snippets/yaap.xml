@@ -71,6 +71,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
