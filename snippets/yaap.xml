@@ -13,6 +13,7 @@
 
   <!-- General -->
   <project path="bionic" name="bionic" remote="yaap" />
+  <project path="manifest" name="yaap/manifest" remote="github" revision="twelve" />
 
   <!-- Build -->
   <project path="build/make" name="build_make" remote="yaap" >
