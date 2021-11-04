@@ -12,6 +12,7 @@
            revision="refs/heads/twelve" />
 
   <!-- General -->
+  <project path="art" name="art" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
   <project path="manifest" name="yaap/manifest" remote="github" revision="twelve" />
 
@@ -37,6 +38,7 @@
 
   <!-- External -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap"  revision="eleven" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
   <project path="external/selinux" name="external_selinux" remote="yaap" />
@@ -74,6 +76,8 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
 
   <!-- System -->
