@@ -72,6 +72,9 @@
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="bootleggers-lab" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="bootleggers-lab" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="bootleggers-lab" />
   <project path="vendor/support" name="vendor_support" remote="bootleggers" />
 
 </manifest>
