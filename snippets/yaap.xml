@@ -14,6 +14,7 @@
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
+  <project path="libcore" name="libcore" remote="yaap" />
   <project path="manifest" name="yaap/manifest" remote="github" revision="twelve" />
 
   <!-- Build -->
@@ -82,6 +83,9 @@
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
