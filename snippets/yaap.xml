@@ -86,6 +86,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
