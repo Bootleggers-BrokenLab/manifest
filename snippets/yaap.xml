@@ -79,6 +79,7 @@
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
+  <project path="packages/apps/OpenDelta" name="packages_apps_openDelta" remote="yaap" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
