@@ -51,6 +51,13 @@
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
 
   <!-- Hardware -->
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="yaap" />
+  <project path="hardware/qcom/sm7250/display" name="hardware_qcom_sm7250_display" remote="yaap" />
+  <project path="hardware/qcom/sm7250/gps" name="hardware_qcom_sm7250_gps" remote="yaap" >
+  <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk"/>
+  <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp"/>
+  </project>
+  <project path="hardware/qcom/sm7250/media" name="hardware_qcom_sm7250_media" remote="yaap" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="yaap" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="yaap" />
