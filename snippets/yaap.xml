@@ -16,6 +16,7 @@
   <project path="bionic" name="bionic" remote="yaap" />
   <project path="libcore" name="libcore" remote="yaap" />
   <project path="manifest" name="yaap/manifest" remote="github" revision="twelve" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
 
   <!-- Build -->
   <project path="build/make" name="build_make" remote="yaap" >
