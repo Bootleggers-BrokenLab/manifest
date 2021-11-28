@@ -55,7 +55,13 @@
   <project path="external/tinyxml" name="external_tinyxml" remote="bootleggers-lab" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
+  <project path="frameworks/native" name="frameworks_native" remote="bootleggers-lab" />
+
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers-lab" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers-lab" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="bootleggers-lab" revision="sambun-caf" />
 
@@ -63,12 +69,22 @@
   <project path="libcore" name="libcore" remote="bootleggers-lab" />
 
   <!-- Packages -->
+  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers-lab">
+    <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
+    <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
+  </project>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers-lab" />
+  <project path="packages/resources/ThemedIcons" name="FAMA-Android/packages_resources_ThemedIcons" remote="github">
+    <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
+  </project>
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="bootleggers-lab" />
+  <project path="system/security" name="system_security" remote="bootleggers-lab" />
   <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers-lab" />
+  <project path="system/vold" name="system_vold" remote="bootleggers-lab" />
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" />
