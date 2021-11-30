@@ -12,14 +12,10 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" revision="lineage-18.1" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" revision="lineage-18.1" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
-  <project path="external/htop" name="android_external_htop" remote="lineage" revision="lineage-18.1" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
-  <project path="external/p7zip" name="android_external_p7zip" remote="lineage" revision="lineage-18.1" />
-  <project path="external/pigz" name="android_external_pigz" remote="lineage" revision="lineage-18.1" />
-  <project path="external/unrar" name="android_external_unrar" remote="lineage" revision="lineage-18.1" />
-  <project path="external/vim" name="android_external_vim" remote="lineage" revision="lineage-18.1" />
-  <project path="external/zip" name="android_external_zip" remote="lineage" revision="lineage-18.1" />
+  <project path="external/openssh" name="android_external_openssh" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf" />
