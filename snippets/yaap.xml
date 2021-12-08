@@ -108,7 +108,6 @@
   <project path="system/vold" name="system_vold" remote="yaap" />
 
   <!-- Tools -->
-  <project path="tools/extract-utils" name="tools_extract-utils" remote="yaap" revision="eleven" />
   <project path="scripts" name="scripts" remote="yaap" revision="master" />
 
   <!-- Vendor -->
