@@ -62,6 +62,7 @@
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers-lab" />
+  <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers-lab" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers-lab" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="bootleggers-lab" revision="sambun-caf" />
 
