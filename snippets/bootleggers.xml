@@ -48,6 +48,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="bootleggers-lab" />
 
   <!-- External -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/libcxx" name="external_libcxx" remote="bootleggers-lab" />
   <project path="external/selinux" name="external_selinux" remote="bootleggers-lab" />
