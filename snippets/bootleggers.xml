@@ -60,6 +60,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers-lab" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bootleggers-lab" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers-lab" />
@@ -71,21 +72,25 @@
   <project path="libcore" name="libcore" remote="bootleggers-lab" />
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="bootleggers-lab" />
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers-lab">
     <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
     <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
   </project>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers-lab" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers-lab" />
   <project path="packages/resources/ThemedIcons" name="FAMA-Android/packages_resources_ThemedIcons" revision="frostmix" remote="github">
     <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
   </project>
 
   <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="bootleggers-lab" />
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="bootleggers-lab" />
   <project path="system/security" name="system_security" remote="bootleggers-lab" />
   <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers-lab" />
+  <project path="system/update_engine" name="system_update_engine" remote="bootleggers-lab" />
   <project path="system/vold" name="system_vold" remote="bootleggers-lab" />
 
   <!-- Vendor -->
