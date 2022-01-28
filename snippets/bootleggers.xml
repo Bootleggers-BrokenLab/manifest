@@ -72,7 +72,6 @@
   <project path="libcore" name="libcore" remote="bootleggers-lab" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="bootleggers-lab" />
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers-lab">
     <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
     <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
@@ -85,7 +84,6 @@
   </project>
 
   <!-- System Repos -->
-  <project path="system/bt" name="system_bt" remote="bootleggers-lab" />
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="bootleggers-lab" />
   <project path="system/security" name="system_security" remote="bootleggers-lab" />
