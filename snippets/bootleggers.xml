@@ -41,7 +41,7 @@
   </project>
 
   <!-- Device -->
-  <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" />
+  <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" revision="sambun-staging"/>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers-lab" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambun-legacy"/>
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambun-legacy-um"/>
@@ -58,7 +58,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
-  <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" revision="sambun-staging"/>
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers-lab" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bootleggers-lab" />
 
@@ -92,7 +92,7 @@
   <project path="system/vold" name="system_vold" remote="bootleggers-lab" />
 
   <!-- Vendor -->
-  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" />
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" revision="sambun-staging"/>
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="bootleggers-lab" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="bootleggers-lab" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="bootleggers-lab" />
