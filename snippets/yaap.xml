@@ -41,7 +41,7 @@
   <!-- External -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
-  <project path="external/json-c" name="external_json-c" remote="yaap"  revision="eleven" />
+  <project path="external/json-c" name="external_json-c" remote="yaap" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
   <project path="external/selinux" name="external_selinux" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
@@ -114,7 +114,7 @@
   <project path="scripts" name="scripts" remote="yaap" revision="master" />
 
   <!-- Vendor -->
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" revision="eleven" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
   <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="twelve" />
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="twelve" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
