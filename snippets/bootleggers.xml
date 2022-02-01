@@ -50,7 +50,13 @@
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bootleggers-lab" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="bootleggers-lab" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="bootleggers-lab" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="bootleggers-lab" />
   <project path="external/libcxx" name="external_libcxx" remote="bootleggers-lab" />
+  <project path="external/mksh" name="external_mksh" remote="bootleggers-lab" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="bootleggers-lab" />
   <project path="external/selinux" name="external_selinux" remote="bootleggers-lab" />
   <project path="external/tinycompress" name="external_tinycompress" remote="bootleggers-lab" />
   <project path="external/tinyxml" name="external_tinyxml" remote="bootleggers-lab" />

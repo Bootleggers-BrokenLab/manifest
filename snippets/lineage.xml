@@ -41,7 +41,6 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
 
   <!-- External -->
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master"/>
  
