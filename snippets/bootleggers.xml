@@ -90,12 +90,12 @@
   </project>
 
   <!-- System Repos -->
-  <project path="system/core" name="system_core" remote="bootleggers-lab" />
+  <project path="system/core" name="system_core" remote="bootleggers-lab" revision="sambun-staging" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="bootleggers-lab" />
   <project path="system/security" name="system_security" remote="bootleggers-lab" />
   <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers-lab" />
   <project path="system/update_engine" name="system_update_engine" remote="bootleggers-lab" />
-  <project path="system/vold" name="system_vold" remote="bootleggers-lab" />
+  <project path="system/vold" name="system_vold" remote="bootleggers-lab" revision="sambun-staging" />
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" revision="sambun-staging"/>
