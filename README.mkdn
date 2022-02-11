@@ -10,11 +10,11 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the YAAP trees, use a command like this:
 
 ```bash
-repo init -u git://github.com/yaap/manifest.git -b twelve
+repo init -u https://github.com/yaap/manifest.git -b twelve
 ```
 Then to sync up:
 ```bash
-repo sync -j$(nproc --all) --no-tags --no-clone-bundle
+repo sync -j$(nproc --all) --no-tags --no-clone-bundle --current-branch
 ```
 
 Building the source
@@ -23,6 +23,6 @@ Building the source
 The source at YAAP is well configured for building.
 
 ```bash
-. build/envsetup.sh
-lunch yaap_device-userdebug && make yaap -j$(nproc --all)
+source build/envsetup.sh
+lunch yaap_device-user && m yaap
 ```
