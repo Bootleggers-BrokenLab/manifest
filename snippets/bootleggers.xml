@@ -8,11 +8,11 @@
 
   <remote  name="bootleggers-lab"
            fetch="https://github.com/Bootleggers-BrokenLab"
-           revision="refs/heads/sambun" />
+           revision="refs/heads/sambunimbo" />
 
   <remote  name="bootleg-devices"
            fetch="https://github.com/BootleggersROM-Devices"
-           revision="refs/heads/sambun" />
+           revision="refs/heads/sambunimbo" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -43,8 +43,8 @@
   <!-- Device -->
   <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers-lab" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambun-legacy"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambun-legacy-um"/>
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambunimbo-legacy"/>
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambunimbo-legacy-um"/>
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="bootleggers-lab" />
 
   <!-- External -->
@@ -52,11 +52,8 @@
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bootleggers-lab" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="bootleggers-lab" />
-  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="bootleggers-lab" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="bootleggers-lab" />
-  <project path="external/libcxx" name="external_libcxx" remote="bootleggers-lab" />
   <project path="external/mksh" name="external_mksh" remote="bootleggers-lab" />
-  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="bootleggers-lab" />
   <project path="external/selinux" name="external_selinux" remote="bootleggers-lab" />
   <project path="external/tinycompress" name="external_tinycompress" remote="bootleggers-lab" />
   <project path="external/tinyxml" name="external_tinyxml" remote="bootleggers-lab" />
@@ -72,7 +69,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers-lab" />
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers-lab" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers-lab" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="bootleggers-lab" revision="sambun-caf" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="bootleggers-lab" revision="sambunimbo-caf" />
 
   <!-- Libraries -->
   <project path="libcore" name="libcore" remote="bootleggers-lab" />
@@ -94,7 +91,6 @@
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
-  <project path="system/libhwbinder" name="system_libhwbinder" remote="bootleggers-lab" />
   <project path="system/security" name="system_security" remote="bootleggers-lab" />
   <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers-lab" />
   <project path="system/update_engine" name="system_update_engine" remote="bootleggers-lab" />
