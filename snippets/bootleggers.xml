@@ -49,7 +49,6 @@
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" />
-  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bootleggers-lab" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="bootleggers-lab" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="bootleggers-lab" />
@@ -57,7 +56,6 @@
   <project path="external/selinux" name="external_selinux" remote="bootleggers-lab" />
   <project path="external/tinycompress" name="external_tinycompress" remote="bootleggers-lab" />
   <project path="external/tinyxml" name="external_tinyxml" remote="bootleggers-lab" />
-  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
@@ -85,9 +83,6 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers-lab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers-lab" />
-  <project path="packages/resources/ThemedIcons" name="FAMA-Android/packages_resources_ThemedIcons" revision="frostmix" remote="github">
-    <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
-  </project>
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
@@ -98,9 +93,6 @@
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="bootleggers-lab" />
-  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="bootleggers-lab" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="bootleggers-lab" />
   <project path="vendor/support" name="vendor_support" remote="bootleggers" />
 
 </manifest>
