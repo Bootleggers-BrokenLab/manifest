@@ -106,7 +106,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="yaosp/prebuilts_clang_host_linux-x86_clang-r445002" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784b" name="yaosp/prebuilts_clang_host_linux-x86_clang-r450784b" remote="gitlab" revision="master" clone-depth="1" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
