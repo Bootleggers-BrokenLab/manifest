@@ -39,10 +39,12 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
 
   <!-- External -->
+  <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="12.1" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
+  <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="12.1" />
   <project path="external/selinux" name="external_selinux" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
 
