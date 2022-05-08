@@ -41,6 +41,7 @@
   <!-- External -->
   <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="12.1" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
+  <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
@@ -113,6 +114,7 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/extras" name="system_extras" remote="yaap" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="yaap" />
   <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
