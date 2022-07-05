@@ -48,6 +48,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/selinux" />
