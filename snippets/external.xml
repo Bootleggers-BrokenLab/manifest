@@ -132,6 +132,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="lineage" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
   <!-- Tools Repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
