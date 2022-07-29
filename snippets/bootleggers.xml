@@ -81,6 +81,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers-lab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers-lab" />
+  <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
