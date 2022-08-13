@@ -79,6 +79,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers-lab" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers-lab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers-lab" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
