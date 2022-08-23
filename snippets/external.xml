@@ -52,6 +52,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master"/>
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
+  <project path="external/zlib-ng" name="ProtonAOSP/android_external_zlib-ng" remote="github" revision="sc-qpr3"/>
  
   <!-- HALs -->
   <project path="hardware/qcom-caf/bootctrl" remote="lineage" name="android_hardware_qcom_bootctrl" groups="qcom,lahaina" revision="lineage-19.1-caf" />
