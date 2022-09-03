@@ -48,6 +48,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="bootleggers-lab" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="bootleggers-lab" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bootleggers-lab" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="bootleggers-lab" />
