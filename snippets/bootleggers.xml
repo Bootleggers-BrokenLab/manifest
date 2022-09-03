@@ -54,6 +54,7 @@
   <project path="external/gptfdisk" name="external_gptfdisk" remote="bootleggers-lab" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="bootleggers-lab" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="bootleggers-lab" />
+  <project path="external/libvpx" name="external_libvpx" remote="bootleggers-lab" />
   <project path="external/mksh" name="external_mksh" remote="bootleggers-lab" />
   <project path="external/selinux" name="external_selinux" remote="bootleggers-lab" />
   <project path="external/tinyxml" name="external_tinyxml" remote="bootleggers-lab" />
