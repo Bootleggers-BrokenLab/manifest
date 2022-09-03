@@ -52,6 +52,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bootleggers-lab" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="bootleggers-lab" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="bootleggers-lab" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="bootleggers-lab" />
   <project path="external/mksh" name="external_mksh" remote="bootleggers-lab" />
   <project path="external/selinux" name="external_selinux" remote="bootleggers-lab" />
   <project path="external/tinyxml" name="external_tinyxml" remote="bootleggers-lab" />
