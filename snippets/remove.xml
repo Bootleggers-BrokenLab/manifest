@@ -72,6 +72,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/OpenCSD" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />

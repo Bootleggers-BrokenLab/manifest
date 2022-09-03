@@ -59,6 +59,7 @@
   <project path="external/mksh" name="external_mksh" remote="bootleggers-lab" />
   <project path="external/OpenCSD" name="external_OpenCSD" remote="bootleggers-lab" />
   <project path="external/selinux" name="external_selinux" remote="bootleggers-lab" />
+  <project path="external/sqlite" name="external_sqlite" remote="bootleggers-lab" />
   <project path="external/tinyxml" name="external_tinyxml" remote="bootleggers-lab" />
 
   <!-- Frameworks -->
