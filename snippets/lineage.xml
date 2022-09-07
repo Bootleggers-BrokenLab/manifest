@@ -3,7 +3,7 @@
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-19.1" />
+           revision="refs/heads/lineage-20.0" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
@@ -11,7 +11,6 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
@@ -24,7 +23,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="lineage" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="lineage" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="lineage" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="lineage" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />

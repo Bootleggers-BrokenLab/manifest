@@ -9,14 +9,12 @@
 
   <remote  name="yaap"
            fetch="https://github.com/yaap"
-           revision="refs/heads/twelve" />
+           revision="refs/heads/thirteen" />
 
   <!-- General -->
-  <project path="art" name="art" remote="yaap" />
-  <project path="bionic" name="bionic" remote="yaap" />
-  <project path="libcore" name="libcore" remote="yaap" />
-  <project path="manifest" name="yaap/manifest" remote="github" revision="twelve" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
+  <project path="bionic" name="bionic" remote="yaap" />
+  <project path="manifest" name="yaap/manifest" remote="github" revision="thirteen" />
 
   <!-- Build -->
   <project path="build/make" name="build_make" remote="yaap" >
@@ -39,32 +37,16 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
 
   <!-- External -->
-  <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="12.1" />
-  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
-  <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
-  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="yaap" />
-  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
-  <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="12.1" />
-  <project path="external/selinux" name="external_selinux" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
   <project path="frameworks/base" name="frameworks_base" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="yaap" />
-  <project path="hardware/qcom/sm7250/display" name="hardware_qcom_sm7250_display" remote="yaap" />
-  <project path="hardware/qcom/sm7250/gps" name="hardware_qcom_sm7250_gps" remote="yaap" >
-  <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk"/>
-  <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp"/>
-  </project>
-  <project path="hardware/qcom/sm7250/media" name="hardware_qcom_sm7250_media" remote="yaap" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="yaap" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="yaap" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" remote="yaap" />
@@ -92,48 +74,24 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="yaap" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
-  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="yaap" />
-  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
-  <project path="packages/apps/GmsCompat" name="GrapheneOS/platform_packages_apps_GmsCompat" remote="github" revision="12.1" />
   <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
-  <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
-  <project path="packages/apps/OpenDelta" name="packages_apps_openDelta" remote="yaap" />
-  <project path="packages/apps/PhotonCamera" name="packages_apps_PhotonCamera" remote="yaap" />
-  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
-  <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
-  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="yaap" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784b" name="yaosp/prebuilts_clang_host_linux-x86_clang-r450784b" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-master" name="RealJohnGalt/clang-master" remote="gitlab" revision="master" clone-depth="1" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
-  <project path="system/extras" name="system_extras" remote="yaap" />
-  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="yaap" />
-  <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
-  <project path="system/update_engine" name="system_update_engine" remote="yaap" />
-  <project path="system/vold" name="system_vold" remote="yaap" />
 
   <!-- Tools -->
   <project path="scripts" name="scripts" remote="yaap" revision="master" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
-  <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="twelve" />
-  <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="twelve" />
+  <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="thirteen" />
+  <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="thirteen" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="yaap" />
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="yaap" />
