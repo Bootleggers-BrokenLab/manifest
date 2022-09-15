@@ -89,7 +89,6 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="bootleggers-lab" />
-  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers-lab" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers-lab" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
@@ -102,6 +101,7 @@
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" />
+  <project path="vendor/shishufied" name="vendor_shishufied" remote="bootleggers-lab" />
   <project path="vendor/support" name="vendor_support" remote="bootleggers" />
 
 </manifest>
