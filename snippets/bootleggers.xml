@@ -41,7 +41,7 @@
   </project>
 
   <!-- Device -->
-  <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" />
+  <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" revision="sambunimbo" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers-lab" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambunimbo-legacy"/>
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="tirimbino-legacy-um"/>
