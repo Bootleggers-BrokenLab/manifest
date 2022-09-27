@@ -12,6 +12,7 @@
            revision="refs/heads/thirteen" />
 
   <!-- General -->
+  <project path="art" name="art" remote="yaap" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
   <project path="manifest" name="yaap/manifest" remote="github" revision="thirteen" />
@@ -50,6 +51,7 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="yaap" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="yaap" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" remote="yaap" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="yaap">
     <!-- Add guard for AOSP hardware/qcom directory. -->
@@ -84,6 +86,7 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
 
   <!-- Tools -->
