@@ -40,6 +40,7 @@
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="yaap" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
