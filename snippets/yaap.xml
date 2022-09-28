@@ -77,9 +77,17 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
 
   <!-- Packages -->
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="yaap" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
   <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
+  <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
+  <project path="packages/apps/OpenDelta" name="packages_apps_openDelta" remote="yaap" />
+  <project path="packages/apps/PhotonCamera" name="packages_apps_PhotonCamera" remote="yaap" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
 
@@ -90,6 +98,7 @@
   <project path="system/core" name="system_core" remote="yaap" />
   <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
+  <project path="system/update_engine" name="system_update_engine" remote="yaap" />
 
   <!-- Tools -->
   <project path="scripts" name="scripts" remote="yaap" revision="master" />
