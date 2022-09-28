@@ -78,6 +78,8 @@
 
   <!-- Packages -->
   <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
+  <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
 
