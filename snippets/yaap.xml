@@ -82,6 +82,7 @@
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
   <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <project path="packages/apps/OpenDelta" name="packages_apps_openDelta" remote="yaap" />
   <project path="packages/apps/PhotonCamera" name="packages_apps_PhotonCamera" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
