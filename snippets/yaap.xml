@@ -15,6 +15,7 @@
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
+  <project path="libcore" name="libcore" remote="yaap" />
   <project path="manifest" name="yaap/manifest" remote="github" revision="thirteen" />
 
   <!-- Build -->
@@ -38,8 +39,11 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
 
   <!-- External -->
+  <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="13" />
+  <project path="external/GmsCompatConfig" name="GrapheneOS/platform_external_GmsCompatConfig" remote="github" revision="13" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
+  <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="13" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="yaap" />
 
@@ -80,6 +84,7 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="yaap" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="yaap" />
   <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
@@ -92,6 +97,8 @@
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-master" name="RealJohnGalt/clang-master" remote="gitlab" revision="master" clone-depth="1" />
