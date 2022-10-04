@@ -99,6 +99,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-master" name="RealJohnGalt/clang-master" remote="gitlab" revision="master" clone-depth="1" />
