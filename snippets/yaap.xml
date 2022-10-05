@@ -39,6 +39,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
   <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="13" />
   <project path="external/GmsCompatConfig" name="GrapheneOS/platform_external_GmsCompatConfig" remote="github" revision="13" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
