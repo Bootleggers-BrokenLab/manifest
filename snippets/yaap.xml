@@ -52,6 +52,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
   <project path="frameworks/base" name="frameworks_base" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
