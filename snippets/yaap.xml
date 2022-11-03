@@ -44,6 +44,8 @@
   <project path="external/GmsCompatConfig" name="GrapheneOS/platform_external_GmsCompatConfig" remote="github" revision="13" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
+  <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="yaap" />
+  <project path="external/rust/cxx" name="external_rust_cxx" remote="yaap" />
   <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="13" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="yaap" />
@@ -107,9 +109,14 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-master" name="RealJohnGalt/clang-master" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r468909" name="yaosp/prebuilts_clang_host_linux-x86_clang-r468909" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/rust" name="yaosp/prebuilts_rust" remote="gitlab" revision="thirteen" />
 
   <!-- System -->
+  <project path="system/apex" name="system_apex" remote="yaap" />
   <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/linkerconfig" name="system_linkerconfig" remote="yaap" />
+  <project path="system/logging" name="system_logging" remote="yaap" />
   <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
   <project path="system/update_engine" name="system_update_engine" remote="yaap" />
