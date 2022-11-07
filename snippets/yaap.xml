@@ -55,6 +55,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
+  <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="yaap" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
@@ -105,6 +106,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
 
   <!-- Prebuilts -->
