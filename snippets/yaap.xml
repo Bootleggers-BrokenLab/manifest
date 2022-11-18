@@ -114,7 +114,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-master" name="RealJohnGalt/clang-master" remote="gitlab" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r468909" name="yaosp/prebuilts_clang_host_linux-x86_clang-r468909" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r475365" name="yaosp/prebuilts_clang_host_linux-x86_clang-r475365" remote="gitlab" revision="master" clone-depth="1" />
   <project path="prebuilts/rust" name="yaosp/prebuilts_rust" remote="gitlab" revision="thirteen" />
 
   <!-- System -->
