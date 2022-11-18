@@ -43,6 +43,8 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/rust/cxx" />
