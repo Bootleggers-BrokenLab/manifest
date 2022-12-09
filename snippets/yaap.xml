@@ -110,6 +110,7 @@
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
