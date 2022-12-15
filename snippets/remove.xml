@@ -92,6 +92,7 @@
   <remove-project name="platform/prebuilts/rust" />
   <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/memory/lmkd" />
