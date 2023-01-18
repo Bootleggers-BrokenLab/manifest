@@ -103,7 +103,6 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
-  <project path="packages/apps/PhotonCamera" name="packages_apps_PhotonCamera" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
