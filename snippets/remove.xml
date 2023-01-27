@@ -52,6 +52,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/rust/cxx" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
