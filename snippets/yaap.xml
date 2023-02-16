@@ -140,7 +140,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
-  <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="thirteen" />
+  <project path="vendor/google/gms" name="yaosp/vendor_google_gms_full" remote="gitlab" revision="thirteen" />
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="thirteen" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="yaap" />
