@@ -50,6 +50,7 @@
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="yaap" />
   <project path="external/libpng" name="external_libpng" remote="yaap" />
   <project path="external/lz4" name="external_lz4" remote="yaap" />
+  <project path="external/protobuf" name="external_protobuf" remote="yaap" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="yaap" />
   <project path="external/rust/cxx" name="external_rust_cxx" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
