@@ -47,6 +47,7 @@
   <project path="external/GmsCompatConfig" name="GrapheneOS/platform_external_GmsCompatConfig" remote="github" revision="13" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
+  <project path="external/libfuse" name="external_libfuse" remote="yaap" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="yaap" />
   <project path="external/libpng" name="external_libpng" remote="yaap" />
   <project path="external/lz4" name="external_lz4" remote="yaap" />
