@@ -45,7 +45,9 @@
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android13" clone-depth="1" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
+  <project path="external/freetype" name="external_freetype" remote="yaap" />
   <project path="external/GmsCompatConfig" name="GrapheneOS/platform_external_GmsCompatConfig" remote="github" revision="13" />
+  <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="yaap" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
   <project path="external/libfuse" name="external_libfuse" remote="yaap" />
@@ -55,6 +57,7 @@
   <project path="external/protobuf" name="external_protobuf" remote="yaap" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="yaap" />
   <project path="external/rust/cxx" name="external_rust_cxx" remote="yaap" />
+  <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
   <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="13" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />

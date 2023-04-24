@@ -45,6 +45,8 @@
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/harfbuzz_ng" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libfuse" />
   <remove-project name="platform/external/libjpeg-turbo" />
@@ -54,6 +56,7 @@
   <remove-project name="platform/external/protobuf" />
   <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/rust/cxx" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
