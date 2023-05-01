@@ -42,6 +42,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/f2fs-tools" />

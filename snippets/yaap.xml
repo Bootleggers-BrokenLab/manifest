@@ -43,6 +43,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
   <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="13" />
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android13" clone-depth="1" />
+  <project path="external/elfutils" name="external_elfutils" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
   <project path="external/freetype" name="external_freetype" remote="yaap" />
