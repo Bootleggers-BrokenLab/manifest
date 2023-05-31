@@ -63,6 +63,7 @@
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
   <project path="external/svox" name="external_svox" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
+  <project path="external/vixl" name="external_vixl" remote="yaap" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="yaap" />
 
   <!-- Frameworks -->
