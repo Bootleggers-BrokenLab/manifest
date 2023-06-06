@@ -41,13 +41,11 @@
   <!-- External -->
   <project path="external/aac" name="external_aac" remote="yaap" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
-  <project path="external/Apps" name="GrapheneOS/platform_external_Apps" remote="github" revision="13" />
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android13" clone-depth="1" />
   <project path="external/elfutils" name="external_elfutils" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
   <project path="external/freetype" name="external_freetype" remote="yaap" />
-  <project path="external/GmsCompatConfig" name="GrapheneOS/platform_external_GmsCompatConfig" remote="github" revision="13" />
   <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="yaap" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
@@ -108,7 +106,6 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
-  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="yaap" />
   <project path="packages/apps/KProfiles" name="KProfiles/android_packages_apps_KProfiles" remote="github" revision="main" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
@@ -157,6 +154,7 @@
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
   <project path="vendor/google/gms" name="yaosp/vendor_google_gms_full" remote="gitlab" revision="thirteen" />
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="thirteen" />
+  <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="yaap" />
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="yaap" />
