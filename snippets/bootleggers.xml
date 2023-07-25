@@ -92,7 +92,6 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers-lab" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="bootleggers" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers-lab" />
-  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="bootleggers-lab" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
