@@ -37,10 +37,12 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" remote="lineage" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" />
 
   <!-- External -->
+  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="lineage" />
   <project path="external/ant-wireless/ant_client" name="ArrowOS/android_external_ant-wireless_ant_client" remote="github" revision="arrow-13.0" />
   <project path="external/ant-wireless/ant_native" name="ArrowOS/android_external_ant-wireless_ant_native" remote="github" revision="arrow-13.0" />
   <project path="external/ant-wireless/ant_service" name="ArrowOS/android_external_ant-wireless_ant_service" remote="github" revision="arrow-13.0" />
   <project path="external/ant-wireless/hidl" name="ArrowOS/android_external_ant-wireless_hidl" remote="github" revision="arrow-13.0" />
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/e2fsprogs" name="ArrowOS/android_external_e2fsprogs" remote="github" revision="arrow-13.0" />
   <project path="external/exfatprogs" name="ArrowOS/android_external_exfatprogs" remote="github" revision="arrow-13.0" />
   <project path="external/f2fs-tools" name="ArrowOS/android_external_f2fs-tools" remote="github" revision="arrow-13.0" />
@@ -114,6 +116,12 @@
   <project path="hardware/ril" name="ArrowOS/android_hardware_ril" groups="pdk" remote="github" revision="arrow-13.0" />
   <!--<project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" /> -->
 
+  <!-- Hardware -->
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="lineage" groups="pdk-lassen,pdk-gs-arm" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage" groups="pdk-lassen,pdk-gs-arm" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" groups="generic_fs,pixel" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" groups="generic_fs,pixel" />
+
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="ArrowOS/android_frameworks_opt_net_ims" remote="github" revision="arrow-13.0" />
 
@@ -138,4 +146,6 @@
   <project path="system/qcom" name="ArrowOS/android_system_qcom" remote="github" revision="arrow-13.0" />
   <project path="system/tools/mkbootimg" name="ArrowOS/android_system_tools_mkbootimg" remote="github" revision="arrow-13.0" />
 
+  <!-- Vendor -->
+ <project path="vendor/pixel-framework" name="PixelExperience/vendor_pixel-framework" remote="github" revision="thirteen" />
 </manifest>
