@@ -52,6 +52,7 @@
   <remove-project name="platform/external/libfuse" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/protobuf" />
@@ -115,4 +116,5 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/tools/apksig" />
 </manifest>

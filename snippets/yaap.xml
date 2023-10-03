@@ -52,6 +52,7 @@
   <project path="external/libfuse" name="external_libfuse" remote="yaap" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="yaap" />
   <project path="external/libpng" name="external_libpng" remote="yaap" />
+  <project path="external/libxml2" name="external_libxml2" remote="yaap" />
   <project path="external/lz4" name="external_lz4" remote="yaap" />
   <project path="external/protobuf" name="external_protobuf" remote="yaap" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="yaap" />
@@ -151,6 +152,7 @@
 
   <!-- Tools -->
   <project path="scripts" name="scripts" remote="yaap" revision="master" />
+  <project path="tools/apksig" name="tools_apksig" remote="yaap" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
