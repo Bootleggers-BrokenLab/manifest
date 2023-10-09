@@ -9,14 +9,13 @@
 
   <remote  name="yaap"
            fetch="https://github.com/yaap"
-           revision="refs/heads/thirteen" />
+           revision="refs/heads/fourteen" />
 
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
-  <project path="libcore" name="libcore" remote="yaap" />
-  <project path="manifest" name="yaap/manifest" remote="github" revision="thirteen" />
+  <project path="manifest" name="yaap/manifest" remote="github" revision="fourteen" />
 
   <!-- Build -->
   <project path="build/make" name="build_make" remote="yaap" >
@@ -41,9 +40,11 @@
   <!-- External -->
   <project path="external/aac" name="external_aac" remote="yaap" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
+  <project path="external/boringssl" name="external_boringssl" remote="yaap" />
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android13" clone-depth="1" />
   <project path="external/elfutils" name="external_elfutils" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
   <project path="external/freetype" name="external_freetype" remote="yaap" />
   <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="yaap" />
@@ -56,14 +57,12 @@
   <project path="external/lz4" name="external_lz4" remote="yaap" />
   <project path="external/protobuf" name="external_protobuf" remote="yaap" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="yaap" />
-  <project path="external/rust/cxx" name="external_rust_cxx" remote="yaap" />
   <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="13" />
   <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
   <project path="external/svox" name="external_svox" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/vixl" name="external_vixl" remote="yaap" />
-  <project path="external/zlib-ng" name="external_zlib-ng" remote="yaap" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
@@ -71,10 +70,12 @@
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="yaap" />
   <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="yaap" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="yaap" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="yaap" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="yaap" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" remote="yaap" />
@@ -102,6 +103,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
 
   <!-- Packages -->
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="yaap" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="yaap" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="yaap" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
@@ -113,6 +115,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
@@ -123,24 +126,25 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="yaap" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
+  <project path="packages/services/Iwlan" name="packages_services_Iwlan" remote="yaap" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="android13" clone-depth="1" />
   <project path="prebuilts/calyx/chromium/arm" name="CalyxOS/platform_prebuilts_calyx_chromium_arm" remote="gitlab" revision="android11-qpr1" clone-depth="1" />
   <project path="prebuilts/calyx/chromium/x86" name="CalyxOS/platform_prebuilts_calyx_chromium_x86" remote="gitlab" revision="android13" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="master" clone-depth="1" />
-  <project path="prebuilts/r8" name="prebuilts_r8" remote="yaap" />
-  <project path="prebuilts/rust" name="yaosp/prebuilts_rust" remote="gitlab" revision="thirteen" />
+  <project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="fourteen" clone-depth="1" />
 
   <!-- System -->
   <project path="system/apex" name="system_apex" remote="yaap" />
   <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/libsysprop" name="system_libsysprop" remote="yaap" />
   <project path="system/libziparchive" name="system_libziparchive" remote="yaap" />
   <project path="system/linkerconfig" name="system_linkerconfig" remote="yaap" />
   <project path="system/logging" name="system_logging" remote="yaap" />
@@ -156,8 +160,8 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
-  <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="thirteen" />
-  <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="thirteen" />
+  <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="fourteen" />
+  <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="fourteen" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="yaap" />
