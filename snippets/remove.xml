@@ -115,4 +115,5 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/tools/apksig" />
+  <remove-project name="toolchain/pgo-profiles" />
 </manifest>
