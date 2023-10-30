@@ -2,11 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
   <default revision="refs/tags/android-14.0.0_r11"
-           remote="aosp"
-           sync-j="4" />
+           remote="aosp" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r11"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1266,4 +1265,10 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+  <!-- END of AOSP projects -->
+
+  <!-- Include our special manifests -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/external.xml" />
+  <include name="snippets/bootleggers.xml" />
 </manifest>
