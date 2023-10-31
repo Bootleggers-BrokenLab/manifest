@@ -52,12 +52,16 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libnl" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/webp" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   <!--<remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/exfatprogs" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libvpx" />
@@ -65,11 +69,12 @@
   <remove-project name="platform/external/OpenCSD" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sqlite" />
-  <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" /> -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
@@ -80,6 +85,7 @@
   <remove-project name="platform/hardware/qcom/sm7250/display" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
+  <remove-project name="platform/hardware/ril" />
   <!--<remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
@@ -87,8 +93,10 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telecomm" />-->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/mkbootimg" />
   <!-- <remove-project name="platform/system/update_engine" /> -->
   <remove-project name="platform/system/vold" />
 </manifest>
