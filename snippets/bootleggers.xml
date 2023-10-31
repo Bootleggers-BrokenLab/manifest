@@ -42,6 +42,7 @@
   </project>
 
   <!-- Device -->
+  <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers-lab" groups="qcom,qssi" />
   <!--
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" groups="qcom,sdm660" revision="urubino-legacy-um" />
@@ -62,6 +63,26 @@
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers-lab" />
   <project path="hardware/bootleg/compat" name="hardware_bootleg_compat" remote="bootleggers-lab" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers-lab" />
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="bootleggers-lab" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+  </project>
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />

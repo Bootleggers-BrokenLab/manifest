@@ -21,26 +21,6 @@
 
   <!-- hardware/qcom-caf -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="lineage" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-  </project>
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf" />
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,sdm845" remote="lineage" revision="lineage-21.0-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="qcom,sdm845" remote="lineage" revision="lineage-21.0-caf-sdm845" />
