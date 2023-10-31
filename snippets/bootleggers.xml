@@ -65,7 +65,7 @@
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
-  <project path="system/security" name="system_sepolicy" remote="bootleggers-lab" />
+  <project path="system/security" name="system_security" remote="bootleggers-lab" />
   <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers-lab" />
   <project path="system/vold" name="system_vold" remote="bootleggers-lab" />
 
