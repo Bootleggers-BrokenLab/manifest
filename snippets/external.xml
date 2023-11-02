@@ -74,7 +74,6 @@
 
   <!-- system-->
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
-  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage" />
 
   <!-- tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
