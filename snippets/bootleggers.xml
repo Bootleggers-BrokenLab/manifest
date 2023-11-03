@@ -53,6 +53,7 @@
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" revision="tirimbino" />
+  <project path="external/cronet" name="external_cronet" remote="bootleggers-lab" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
@@ -63,6 +64,7 @@
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers-lab" />
   <project path="hardware/bootleg/compat" name="hardware_bootleg_compat" remote="bootleggers-lab" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers-lab" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers-lab" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="bootleggers-lab" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
