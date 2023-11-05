@@ -86,6 +86,17 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
 
+  <!-- Packages -->
+  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers-lab">
+    <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
+    <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
+  </project>
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers-lab" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
+  <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
+
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
   <project path="system/security" name="system_security" remote="bootleggers-lab" />
