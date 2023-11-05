@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aospa"
+           fetch="https://github.com/AOSPA"
+           revision="refs/heads/uvite" />
+
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="refs/heads/uvite" />
+
+  <!-- Device -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
+  <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="aospa" />
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
+
+</manifest>

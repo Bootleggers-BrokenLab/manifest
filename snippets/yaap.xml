@@ -168,6 +168,7 @@
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="yaap" />
+  <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="yaap" />
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="yaap" />
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="yaap" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="yaap" />
