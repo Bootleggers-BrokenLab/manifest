@@ -59,7 +59,7 @@
   <project path="external/perfetto" name="external_perfetto" remote="yaap" />
   <project path="external/protobuf" name="external_protobuf" remote="yaap" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="yaap" />
-  <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="13" />
+  <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="14" />
   <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
   <project path="external/svox" name="external_svox" remote="yaap" />
