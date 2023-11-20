@@ -34,6 +34,7 @@
 
   <!-- Device -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="yaap" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="yaap" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="yaap" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
 
@@ -165,6 +166,7 @@
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
   <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="fourteen" />
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="fourteen" />
+  <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fourteen" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="yaap" />

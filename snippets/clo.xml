@@ -10,10 +10,6 @@
            revision="refs/heads/uvite" />
 
   <!-- Device -->
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
   <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="aospa" />
-
-  <!-- Vendor -->
-  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
 
 </manifest>
