@@ -102,6 +102,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="bootleggers-lab" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
   <!-- System Repos -->

@@ -123,6 +123,7 @@
   <!--<remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telecomm" />-->
+  <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/security" />
