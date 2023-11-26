@@ -52,6 +52,7 @@
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" revision="tirimbino" />
   <project path="external/cronet" name="external_cronet" remote="bootleggers-lab" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="bootleggers-lab" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
