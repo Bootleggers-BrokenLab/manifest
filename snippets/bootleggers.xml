@@ -100,6 +100,7 @@
   </project>
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers-lab" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers-lab" />
+  <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="bootleggers-lab" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
