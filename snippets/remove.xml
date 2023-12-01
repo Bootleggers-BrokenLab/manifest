@@ -115,6 +115,7 @@
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/server_configurable_flags" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/tools/apksig" />
