@@ -57,6 +57,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="bootleggers-lab" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers-lab" />
 
   <!-- Hardware -->
@@ -106,6 +107,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="bootleggers-lab" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="bootleggers-lab" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="bootleggers-lab" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
   <!-- System Repos -->
