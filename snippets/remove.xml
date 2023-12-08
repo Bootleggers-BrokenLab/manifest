@@ -20,6 +20,8 @@
   <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/shusky" />
+  <remove-project name="device/google/shusky-kernel" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
