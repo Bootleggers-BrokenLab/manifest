@@ -5,6 +5,7 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   <default revision="refs/tags/android-14.0.0_r17"
+           sync-j="4"
            remote="aosp" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r17"/>
