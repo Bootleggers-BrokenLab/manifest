@@ -43,7 +43,6 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
-  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/elfutils" />
