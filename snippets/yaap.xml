@@ -147,6 +147,7 @@
   <!-- System -->
   <project path="system/apex" name="system_apex" remote="yaap" />
   <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="yaap" />
   <project path="system/libsysprop" name="system_libsysprop" remote="yaap" />
   <project path="system/libziparchive" name="system_libziparchive" remote="yaap" />
   <project path="system/linkerconfig" name="system_linkerconfig" remote="yaap" />

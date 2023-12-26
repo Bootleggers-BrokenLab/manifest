@@ -112,6 +112,7 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/libsysprop" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/linkerconfig" />
