@@ -133,6 +133,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="yaap" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="yaap" />
