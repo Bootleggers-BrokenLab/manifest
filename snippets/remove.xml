@@ -67,6 +67,7 @@
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/zstd" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/systemui" />
