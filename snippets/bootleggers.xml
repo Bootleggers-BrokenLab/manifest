@@ -108,6 +108,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="bootleggers-lab" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="bootleggers-lab" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="bootleggers-lab" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="bootleggers-lab" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
