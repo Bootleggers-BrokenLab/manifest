@@ -46,6 +46,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
   <project path="external/boringssl" name="external_boringssl" remote="yaap" />
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android13" clone-depth="1" />
+  <project path="external/dtc" name="external_dtc" remote="yaap" />
   <project path="external/elfutils" name="external_elfutils" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="yaap" />
