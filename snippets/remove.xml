@@ -59,6 +59,7 @@
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/open-dice" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/protobuf" />
   <remove-project name="platform/external/rust/crates/ring" />
