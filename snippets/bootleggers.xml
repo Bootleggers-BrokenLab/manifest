@@ -58,6 +58,8 @@
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="bootleggers-lab" />
+  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="bootleggers-lab" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bootleggers-lab" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers-lab" />
 
   <!-- Hardware -->
@@ -108,13 +110,17 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="bootleggers-lab" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="bootleggers-lab" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="bootleggers-lab" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="bootleggers-lab" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="bootleggers-lab" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="bootleggers-lab" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
   <!-- System Repos -->
+  <project path="system/bpf" name="system_bpf" remote="bootleggers-lab" />
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
   <project path="system/logging" name="system_logging" remote="bootleggers-lab" />
+  <project path="system/netd" name="system_netd" remote="bootleggers-lab" />
   <project path="system/security" name="system_security" remote="bootleggers-lab" />
   <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers-lab" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" groups="pdk" remote="bootleggers-lab" />
