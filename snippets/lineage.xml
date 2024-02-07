@@ -6,10 +6,10 @@
            revision="refs/heads/lineage-21.0" />
 
   <!-- External -->
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" revision="lineage-20.0" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" revision="lineage-20.0" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" revision="lineage-20.0" />
-  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" revision="lineage-20.0" />
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
@@ -20,7 +20,7 @@
   <project path="external/webp" name="android_external_webp" remote="lineage" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-20.0-caf" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-21.0-caf" />
 
   <!-- Framework -->
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="lineage" />
@@ -46,8 +46,8 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
   <!-- Vendor -->
-  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" revision="lineage-18.1" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" revision="lineage-20.0" />
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" revision="lineage-20.0" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" />
 
 </manifest>
