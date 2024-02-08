@@ -157,6 +157,7 @@
   <project path="system/libziparchive" name="system_libziparchive" remote="yaap" />
   <project path="system/linkerconfig" name="system_linkerconfig" remote="yaap" />
   <project path="system/logging" name="system_logging" remote="yaap" />
+  <project path="system/media" name="system_media" remote="yaap" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="yaap" />
   <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
