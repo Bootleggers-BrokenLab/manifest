@@ -27,6 +27,11 @@
   <project path="external/webp" name="android_external_webp" groups="pdk" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="lineage" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="lineage" />
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
+
   <!-- hardware/qcom-caf -->
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="pdk" remote="lineage" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="pdk" remote="lineage" />
