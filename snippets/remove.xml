@@ -119,6 +119,7 @@
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
   <remove-project name="platform/hardware/ril" />
   <remove-project path="packages/modules/Permission" />
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
