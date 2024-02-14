@@ -52,6 +52,7 @@
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" revision="tirimbino" />
   <project path="external/cronet" name="external_cronet" remote="bootleggers-lab" />
+  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="bootleggers-lab" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="bootleggers-lab" />
 
   <!-- Frameworks -->
@@ -103,6 +104,7 @@
   </project>
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers-lab" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers-lab" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="bootleggers-lab" />
   <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="gitlab-bootleggers" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="bootleggers-lab" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
