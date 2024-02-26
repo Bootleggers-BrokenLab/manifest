@@ -121,6 +121,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="bootleggers-lab" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="bootleggers-lab" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="bootleggers-lab" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers-lab" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
   <!-- System Repos -->
