@@ -107,7 +107,6 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
   <!-- vendor -->
-  <project path="vendor/certification" name="EvoX/vendor_certification" remote="gitlab" revision="udc" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="lineage" />
 
   <!-- vendor/nxp -->
