@@ -11,21 +11,35 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <!-- build -->
+  <project path="build/bazel" name="yaap/build_bazel" remote="github" revision="fourteen" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
+
   <!-- external -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
+  <project path="external/boringssl" name="yaap/external_boringssl" remote="github" revision="fourteen" />
+  <project path="external/dtc" name="yaap/external_dtc" remote="github" revision="fourteen" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
+  <project path="external/open-dice" name="yaap/external_open-dice" remote="github" revision="fourteen" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/libnl" name="android_external_libnl" groups="qcom,qssi" remote="lineage" />
+  <project path="external/perfetto" name="yaap/external_perfetto" remote="github" revision="fourteen" />
+  <project path="external/rust/crates/ring" name="yaap/external_rust_crates_ring" remote="github" revision="fourteen" />
+  <project path="external/sqlite" name="yaap/external_sqlite" remote="github" revision="fourteen" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/webp" name="android_external_webp" groups="pdk" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
+  <project path="external/zlib" name="yaap/external_zlib-ng" remote="github" revision="fourteen" />
+  <project path="external/zstd" name="yaap/external_zstd" remote="github" revision="fourteen" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="lineage" />
@@ -85,10 +99,12 @@
   <!-- packages-->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
+  <project path="packages/modules/StatsD" name="yaap/packages_modules_StatsD" remote="github" revision="fourteen" />
   <project path="packages/resources/ThemedIcons" name="RadekBledowski/rkicons" revision="develop" remote="github">
     <linkfile src="app/src/main/res" dest="packages/apps/Launcher3/res-icons" />
   </project>
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+  <project path="packages/modules/Virtualization" name="yaap/packages_modules_Virtualization" remote="github" revision="fourteen" />
 
 
   <!-- prebuilts -->
@@ -99,6 +115,8 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="lineage" revision="lineage-19.1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.75" />
   <project path="prebuilts/tools-bootleg" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="fourteen" clone-depth="1" />
+  <project path="toolchain/pgo-profiles" name="yaap/toolchain_pgo-profiles" remote="github" revision="fourteen" />
 
   <!-- system-->
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
