@@ -5,9 +5,13 @@
 
 ### Guide (FOR EARLY STAGE TESTING PURPOSES)
 
+Before anything, install git-lfs through your distro package manager. After that, do:
+
+	git-lfs install
+
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/Bootleggers-brokenlab/manifest.git -b urubino
+	repo init -u https://github.com/Bootleggers-brokenlab/manifest.git -b urubino --git-lfs
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
