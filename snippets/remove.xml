@@ -63,9 +63,6 @@
   <remove-project name="platform/build/bazel" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/arm-optimized-routines" />
-  <remove-project name="platform/external/boringssl" />
-  <remove-project name="platform/external/dtc" />
-  <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/f2fs-tools" />
@@ -77,10 +74,6 @@
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/open-dice" />
-  <remove-project name="platform/external/perfetto" />
-  <remove-project name="platform/external/protobuf" />
-  <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
@@ -119,9 +112,7 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
-  <remove-project name="platform/packages/modules/StatsD" />
   <remove-project name="platform/packages/modules/Wifi" />
-  <remove-project name="platform/packages/modules/Virtualization" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <remove-project name="platform/packages/providers/BookmarkProvider" />
   <remove-project name="platform/packages/providers/CalendarProvider" />

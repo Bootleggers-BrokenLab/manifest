@@ -44,10 +44,7 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
-  <project path="external/boringssl" name="external_boringssl" remote="yaap" />
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android13" clone-depth="1" />
-  <project path="external/dtc" name="external_dtc" remote="yaap" />
-  <project path="external/elfutils" name="external_elfutils" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
@@ -60,10 +57,6 @@
   <project path="external/libxml2" name="external_libxml2" remote="yaap" />
   <project path="external/lz4" name="external_lz4" remote="yaap" />
   <project path="external/mksh" name="external_mksh" remote="yaap" />
-  <project path="external/open-dice" name="external_open-dice" remote="yaap" />
-  <project path="external/perfetto" name="external_perfetto" remote="yaap" />
-  <project path="external/protobuf" name="external_protobuf" remote="yaap" />
-  <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="yaap" />
   <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="14" />
   <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
@@ -134,9 +127,7 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
-  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
-  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="yaap" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
