@@ -89,7 +89,6 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/frameworks/libs/modules-utils" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/packages/apps/Calendar" />
@@ -126,18 +125,10 @@
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
-  <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/hardware/interfaces" />
-  <remove-project name="platform/system/libsysprop" />
-  <remove-project name="platform/system/libziparchive" />
-  <remove-project name="platform/system/linkerconfig" />
-  <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
-  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/server_configurable_flags" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/tools/apksig" />

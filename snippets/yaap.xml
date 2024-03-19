@@ -73,7 +73,6 @@
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="yaap" />
-  <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="yaap" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
@@ -144,18 +143,10 @@
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="yaap" />
 
   <!-- System -->
-  <project path="system/apex" name="system_apex" remote="yaap" />
   <project path="system/core" name="system_core" remote="yaap" />
-  <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="yaap" />
-  <project path="system/libsysprop" name="system_libsysprop" remote="yaap" />
-  <project path="system/libziparchive" name="system_libziparchive" remote="yaap" />
-  <project path="system/linkerconfig" name="system_linkerconfig" remote="yaap" />
-  <project path="system/logging" name="system_logging" remote="yaap" />
   <project path="system/media" name="system_media" remote="yaap" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="yaap" />
-  <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
-  <project path="system/server_configurable_flags" name="system_server_configurable_flags" remote="yaap" />
   <project path="system/update_engine" name="system_update_engine" remote="yaap" />
   <project path="system/vold" name="system_vold" remote="yaap" />
 
