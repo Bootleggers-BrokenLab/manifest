@@ -20,6 +20,7 @@
   <project path="external/webp" name="android_external_webp" remote="lineage" />
 
   <!-- Hardware -->
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-21.0-caf" />
 
   <!-- Framework -->
