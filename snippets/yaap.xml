@@ -87,6 +87,9 @@
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" remote="yaap" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
 
+  <!-- Kernel -->
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.56" />
+
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="yaap" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="yaap" />
