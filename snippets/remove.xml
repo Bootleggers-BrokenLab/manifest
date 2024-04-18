@@ -69,6 +69,7 @@
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/harfbuzz_ng" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libdav1d" />
   <remove-project name="platform/external/libfuse" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
