@@ -128,6 +128,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
   <project path="packages/services/Iwlan" name="packages_services_Iwlan" remote="yaap" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="yaap" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
 
