@@ -141,7 +141,9 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/libvintf" name="system_libvintf" remote="yaap" />
   <project path="system/media" name="system_media" remote="yaap" />
+  <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" remote="yaap" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
   <project path="system/update_engine" name="system_update_engine" remote="yaap" />
