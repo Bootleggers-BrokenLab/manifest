@@ -112,7 +112,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android14" />
-  <project path="packages/apps/Seedvault" name="CalyxOS/platform_packages_apps_Seedvault" remote="github" revision="android14" />
+  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
