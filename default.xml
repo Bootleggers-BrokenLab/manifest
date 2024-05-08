@@ -1378,6 +1378,7 @@
   <include name="snippets/yaap.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/clo.xml" />
+  <include name="snippets/shallow.xml" />
 
   <!-- END open-source projects -->
 </manifest>
