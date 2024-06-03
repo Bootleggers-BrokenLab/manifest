@@ -73,6 +73,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
   <project path="frameworks/base" name="frameworks_base" remote="yaap" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
+  <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="yaap" />
