@@ -80,6 +80,7 @@
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/vixl" />
