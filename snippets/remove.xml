@@ -133,6 +133,7 @@
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/sdk" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libvintf" />
   <remove-project name="platform/system/media" />
