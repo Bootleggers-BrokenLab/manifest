@@ -5,6 +5,9 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-21.0" />
 
+  <!-- Device -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-21" remote="lineage" />
+
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
