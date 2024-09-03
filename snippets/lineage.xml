@@ -18,13 +18,6 @@
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/webp" name="android_external_webp" remote="lineage" />
 
-  <!-- Hardware -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
-  <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
-  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
-
-
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,qssi" />
   <project path="device/qcom/sepolicy-legacy-um" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-21.0-legacy-um" />
@@ -102,7 +95,6 @@
   <project path="hardware/qcom-caf/sm8550/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
   <project path="hardware/qcom-caf/thermal" remote="lineage" name="android_hardware_qcom_thermal" groups="qcom,kailua-vendor" />
   <project path="hardware/qcom-caf/vr" remote="lineage" name="android_hardware_qcom_vr" groups="qcom,legacy-qcom" />
-  <project path="hardware/qcom-caf/wlan" remote="lineage" name="android_hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" />
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" />
@@ -112,7 +104,6 @@
   <project path="vendor/qcom/opensource/commonsys/wfd" remote="lineage" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,kailua-video" />
   <project path="vendor/qcom/opensource/core-utils-sys" remote="lineage" name="android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/core-utils-vendor" remote="lineage" name="android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" remote="lineage" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" />
   <project path="vendor/qcom/opensource/dataservices" remote="lineage" name="android_vendor_qcom_opensource_dataservices" groups="qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/display" remote="lineage" name="android_vendor_qcom_opensource_display" groups="qcom" />
   <project path="vendor/qcom/opensource/healthd-ext" remote="lineage" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" />
