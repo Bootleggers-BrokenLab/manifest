@@ -81,6 +81,8 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="yaap" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="yaap" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="yaap" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="yaap" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="yaap" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
 
   <!-- Kernel -->
