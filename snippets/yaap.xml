@@ -94,6 +94,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="yaap" />
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
