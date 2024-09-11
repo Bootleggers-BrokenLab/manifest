@@ -18,6 +18,9 @@
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/webp" name="android_external_webp" remote="lineage" />
 
+  <!-- Hardware -->
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
+
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,qssi" />
   <project path="device/qcom/sepolicy-legacy-um" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-21.0-legacy-um" />
