@@ -43,7 +43,7 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
-  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android14" clone-depth="1" />
+  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="staging/android15" clone-depth="1" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
@@ -131,9 +131,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="android14" clone-depth="1" />
-  <project path="prebuilts/calyx/chromium/arm" name="CalyxOS/platform_prebuilts_calyx_chromium_arm" remote="gitlab" revision="android11-qpr1" clone-depth="1" />
-  <project path="prebuilts/calyx/chromium/x86" name="CalyxOS/platform_prebuilts_calyx_chromium_x86" remote="gitlab" revision="android13" clone-depth="1" />
+  <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="staging/android15" clone-depth="1" />
   <project path="prebuilts/sdk" name="prebuilts_sdk" remote="yaap" clone-depth="1" />
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="yaap" />
 
