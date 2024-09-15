@@ -136,6 +136,7 @@
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="yaap" />
 
   <!-- System -->
+  <project path="system/bpf" name="system_bpf" remote="yaap" />
   <project path="system/core" name="system_core" remote="yaap" />
   <project path="system/libvintf" name="system_libvintf" remote="yaap" />
   <project path="system/media" name="system_media" remote="yaap" />
