@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Projects to be removed -->
-  <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/google_car" />
@@ -57,7 +56,9 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/sample" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/bazel" />
