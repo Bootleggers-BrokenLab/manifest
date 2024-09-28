@@ -95,6 +95,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="yaap" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="yaap" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="yaap" />
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
