@@ -127,6 +127,7 @@
   <project path="packages/providers/BlockedNumberProvider" name="packages_providers_BlockedNumberProvider" remote="yaap" />
   <project path="packages/providers/BookmarkProvider" name="packages_providers_BookmarkProvider" remote="yaap" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="yaap" />
+  <project path="packages/providers/CallLogProvider" name="packages_providers_CallLogProvider" remote="yaap" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
