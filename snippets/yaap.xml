@@ -124,6 +124,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
+  <project path="packages/providers/BlockedNumberProvider" name="packages_providers_BlockedNumberProvider" remote="yaap" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
