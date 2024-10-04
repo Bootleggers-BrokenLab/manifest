@@ -16,7 +16,6 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/openssh" name="android_external_openssh" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
-  <project path="external/webp" name="android_external_webp" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" revision="7fcaaf7efc64868b3fc8b03c8307daf3342ecbcd" />
@@ -66,11 +65,11 @@
   <project path="hardware/qcom-caf/sm8550/dataipa" remote="lineage" name="android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/thermal" remote="lineage" name="android_hardware_qcom_thermal" groups="qcom,kailua-vendor" />
+  <project path="hardware/qcom-caf/thermal" remote="lineage" name="android_hardware_qcom_thermal" groups="qcom,kailua-vendor" revision="lineage-22.0" />
   <project path="hardware/qcom-caf/vr" remote="lineage" name="android_hardware_qcom_vr" groups="qcom,legacy-qcom" />
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="lineage-22.0" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" revision="lineage-22.0" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/fm" remote="lineage" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
@@ -82,9 +81,9 @@
   <project path="vendor/qcom/opensource/healthd-ext" remote="lineage" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/interfaces" remote="lineage" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/libfmjni" remote="lineage" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" />
-  <project path="vendor/qcom/opensource/power" remote="lineage" name="android_vendor_qcom_opensource_power" groups="qcom,kailua-vendor" />
+  <project path="vendor/qcom/opensource/power" remote="lineage" name="android_vendor_qcom_opensource_power" groups="qcom,kailua-vendor" revision="lineage-22.0" />
   <project path="vendor/qcom/opensource/thermal-engine" remote="lineage" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/usb" remote="lineage" name="android_vendor_qcom_opensource_usb" groups="qcom,kailua-vendor" />
+  <project path="vendor/qcom/opensource/usb" remote="lineage" name="android_vendor_qcom_opensource_usb" groups="qcom,kailua-vendor" revision="lineage-22.0" />
   <project path="vendor/qcom/opensource/vibrator" remote="lineage" name="android_vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" />
 
   <!-- Packages -->
