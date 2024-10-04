@@ -19,7 +19,7 @@
   <project path="external/webp" name="android_external_webp" remote="lineage" />
 
   <!-- Hardware -->
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" revision="7fcaaf7efc64868b3fc8b03c8307daf3342ecbcd" />
 
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,qssi" />
