@@ -21,9 +21,9 @@
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,qssi" />
   <project path="device/qcom/sepolicy-legacy-um" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-21.0-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-22.0-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-22.0-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-22.0-caf-sm8550" />
   <project path="external/ant-wireless/ant_client" remote="lineage" name="android_external_ant-wireless_ant_client" groups="qcom" />
   <project path="external/ant-wireless/ant_native" remote="lineage" name="android_external_ant-wireless_ant_native" groups="qcom" />
   <project path="external/ant-wireless/ant_service" remote="lineage" name="android_external_ant-wireless_ant_service" groups="qcom" />
