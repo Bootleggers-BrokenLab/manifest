@@ -47,6 +47,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="staging/android15" clone-depth="1" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
