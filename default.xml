@@ -4,12 +4,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-15.0.0_r1"
+  <default revision="refs/tags/android-15.0.0_r2"
            remote="aosp"
            sync-j="8"
            sync-c="true" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r1"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r2"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
