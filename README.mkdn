@@ -1,5 +1,10 @@
-YAAP
+Bootleggers Viribio
 ==============
+
+Special notice
+---------------
+This is mostly based on the work made by YAAP. This might change in the future. 
+
 
 Getting Started
 ---------------
@@ -7,10 +12,10 @@ Getting Started
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the YAAP trees, use a command like this:
+To initialize your local repository using the Bootleggers trees, use a command like this:
 
 ```bash
-repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/Bootleggers-BrokenLab/manifest.git -b viribio --git-lfs
 ```
 Then to sync up:
 ```bash
@@ -20,9 +25,9 @@ repo sync -j$(nproc --all) --no-tags --no-clone-bundle --current-branch
 Building the source
 ---------------
 
-The source at YAAP is well configured for building.
+The source at Bootleggers might face some build issues, so be prepared! To start building, you can run the following commands:
 
 ```bash
 source build/envsetup.sh
-lunch yaap_device-user && m yaap
+lunch bootleggers_device-user && m bootleggers
 ```

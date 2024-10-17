@@ -19,22 +19,9 @@
   <project path="manifest" name="yaap/manifest" remote="github" revision="fifteen" />
 
   <!-- Build -->
-  <project path="build/make" name="build_make" remote="yaap" >
-   <copyfile src="core/root.mk" dest="Makefile" />
-   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-   <linkfile src="core" dest="build/core" />
-   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-   <linkfile src="target" dest="build/target" />
-   <linkfile src="tools" dest="build/tools" />
-  </project>
   <project path="build/bazel" name="build_bazel" remote="yaap" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
-  </project>
-  <project path="build/soong" name="build_soong" remote="yaap" >
-   <linkfile src="root.bp" dest="Android.bp" />
-   <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/release" name="build_release" remote="yaap" />
 
@@ -71,7 +58,6 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
@@ -157,7 +143,6 @@
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android14" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
@@ -180,7 +165,6 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="yaap" />
   <project path="packages/services/Iwlan" name="packages_services_Iwlan" remote="yaap" />
-  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="yaap" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
 
@@ -214,6 +198,5 @@
   <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fifteen" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
 
 </manifest>

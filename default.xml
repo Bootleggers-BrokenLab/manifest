@@ -1474,6 +1474,7 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/clo.xml" />
   <include name="snippets/shallow.xml" />
+  <include name="snippets/bootleggers.xml" />
 
   <!-- END open-source projects -->
 </manifest>
