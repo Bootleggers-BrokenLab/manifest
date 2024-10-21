@@ -16,7 +16,6 @@
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
-  <project path="manifest" name="yaap/manifest" remote="github" revision="fifteen" />
 
   <!-- Build -->
   <project path="build/bazel" name="build_bazel" remote="yaap" >
