@@ -28,7 +28,7 @@
   </project>
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="frameworks_base" remote="bootleggers-gitlab" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
